@@ -32,7 +32,7 @@ export default function Projects() {
             />
           </Link>
           <Link href={"https://github.com/Reevestb/Eggscape"} target="_blank">
-            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+            <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500 ">
               <FaGithub /> &nbsp;Eggscape Project
             </h1>
           </Link>
@@ -55,8 +55,8 @@ export default function Projects() {
             href={"https://github.com/Reevestb/week9-Assignment"}
             target="_blank"
           >
-            <h1 className="flex flex-row justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
-              <FaGithub /> &nbsp;Social Network Project
+            <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+              <FaGithub /> &nbsp;A Social Network
             </h1>
           </Link>
         </Card>
@@ -74,10 +74,10 @@ export default function Projects() {
             />
           </Link>
           <Link
-            href={"https://github.com/Reevestb/week-7-assignment"}
+            href={"https://github.com/Reevestb/f1-track-reviews"}
             target="_blank"
           >
-            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+            <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
               <FaGithub /> &nbsp;F1 Fan Page
             </h1>
           </Link>
@@ -101,7 +101,7 @@ export default function Projects() {
             href={"https://github.com/Reevestb/week8-assignment"}
             target="_blank"
           >
-            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+            <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
               <FaGithub /> &nbsp;The Feelings Blog
             </h1>
           </Link>
@@ -124,7 +124,7 @@ export default function Projects() {
             href={"https://github.com/Reevestb/React-Cookie-Clicker"}
             target="_blank"
           >
-            <h1 className="flex flex-row justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+            <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
               <FaGithub /> &nbsp;Cookie Clicker
             </h1>
           </Link>
@@ -146,7 +146,7 @@ export default function Projects() {
             href={"https://github.com/Reevestb/Team-Project"}
             target="_blank"
           >
-            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+            <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
               <FaGithub /> &nbsp; I&apos;m Board
             </h1>
           </Link>

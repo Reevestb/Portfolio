@@ -22,7 +22,7 @@ export default function Header() {
             gap={"2"}
             align={"center"}
           >
-            <div className="flex flex-row justify-center gap-2">
+            <div className="flex flex-row justify-center gap-2 items-center">
               <Avatar
                 size={"2"}
                 radius="full"
