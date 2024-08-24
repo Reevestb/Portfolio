@@ -27,7 +27,7 @@ const App = () => {
       color="blue"
       onClick={toggleTheme}
     >
-      {theme === "light" ? <CiLight /> : <CiDark />}
+      {theme === "light" ? <CiDark /> : <CiLight />}
     </Button>
   );
 };
