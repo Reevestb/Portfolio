@@ -14,7 +14,7 @@ import LD from "@/components/light-dark";
 export default function Header() {
   return (
     <nav className="sticky top-0 z-40 pt-2 self-center">
-      <Container>
+      <Container className="pl-2 pr-2">
         <Card>
           <Flex
             direction={"row"}

@@ -15,7 +15,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen flex-col items-center pr-2 pl-2">
       <Heading size={"7"} className="p-2 pb-4 underline underline-offset-8">
         <Strong>Previous Projects</Strong>
       </Heading>
