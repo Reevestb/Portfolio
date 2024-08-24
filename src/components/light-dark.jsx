@@ -21,13 +21,22 @@ const App = () => {
 
   return (
     <Button
-      // className="bg-orange-500 rounded-lg p-0 m-0"
-      size={"1"}
+      className="p-0 m-0 hover:bg-gray-400"
+      size={"2"}
       radius="full"
-      color="blue"
+      color="gray"
       onClick={toggleTheme}
+      variant="soft"
     >
-      {theme === "light" ? <CiDark /> : <CiLight />}
+      {theme === "light" ? (
+        <p className="text-base text-black">
+          <CiDark />
+        </p>
+      ) : (
+        <p className="text-base text-white">
+          <CiLight />
+        </p>
+      )}
     </Button>
   );
 };
