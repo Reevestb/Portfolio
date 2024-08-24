@@ -33,7 +33,7 @@ export default function Projects() {
           </Link>
           <Link href={"https://github.com/Reevestb/Eggscape"} target="_blank">
             <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
-              <FaGithub /> &nbsp;Eggscape Final Project
+              <FaGithub /> &nbsp;Eggscape Project
             </h1>
           </Link>
         </Card>
@@ -83,7 +83,75 @@ export default function Projects() {
           </Link>
         </Card>
       </Flex>
+
       <br></br>
+      {/*//? Next row of projects  */}
+      <Flex className="flex flex-col gap-6 lg:flex lg:flex-row md:flex-row">
+        <Card className="bg-gray-300 max-w-fit ">
+          <Link href={"https://week8-assignment.vercel.app/"} target="_blank">
+            <Image
+              src="/feelings-blog.png"
+              alt=""
+              width={350}
+              height={300}
+              className="rounded"
+            />
+          </Link>
+          <Link
+            href={"https://github.com/Reevestb/week8-assignment"}
+            target="_blank"
+          >
+            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+              <FaGithub /> &nbsp;The Feelings Blog
+            </h1>
+          </Link>
+        </Card>
+        {/* //? project change */}
+        <Card className="bg-gray-300 max-w-fit">
+          <Link
+            href={"https://react-cookie-clicker-m7j3.onrender.com/"}
+            target="_blank"
+          >
+            <Image
+              src="/cookie-clicker.png"
+              alt=""
+              width={350}
+              height={300}
+              className="rounded"
+            />
+          </Link>
+          <Link
+            href={"https://github.com/Reevestb/React-Cookie-Clicker"}
+            target="_blank"
+          >
+            <h1 className="flex flex-row justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+              <FaGithub /> &nbsp;Cookie Clicker
+            </h1>
+          </Link>
+        </Card>
+        <Card className="bg-gray-300 max-w-fit ">
+          <Link
+            href={"https://team-project-1-xc83.onrender.com/"}
+            target="_blank"
+          >
+            <Image
+              src="/im-board.png"
+              alt=""
+              width={350}
+              height={300}
+              className="rounded"
+            />
+          </Link>
+          <Link
+            href={"https://github.com/Reevestb/Team-Project"}
+            target="_blank"
+          >
+            <h1 className="flex justify-center text-2xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+              <FaGithub /> &nbsp; I&apos;m Board
+            </h1>
+          </Link>
+        </Card>
+      </Flex>
     </main>
   );
 }
