@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Header from "@/components/Header";
 import "@radix-ui/themes/styles.css";
@@ -16,7 +17,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Theme accentColor="orange" appearance="inherit">
+        <Theme accentColor="orange" radius="full" appearance="inherit">
+          {/* <ThemePanel /> */}
           <Header />
           {children}
         </Theme>

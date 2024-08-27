@@ -12,6 +12,7 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
+import { RiTeamLine } from "react-icons/ri";
 
 export default function Projects() {
   return (
@@ -33,7 +34,10 @@ export default function Projects() {
           </Link>
           <Link href={"https://github.com/Reevestb/Eggscape"} target="_blank">
             <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500 ">
-              <FaGithub /> &nbsp;Eggscape Project
+              <FaGithub /> &nbsp;Eggscape Project &nbsp;
+              <p className="text-blue-500 text-lg">
+                <RiTeamLine />
+              </p>
             </h1>
           </Link>
         </Card>
@@ -147,7 +151,10 @@ export default function Projects() {
             target="_blank"
           >
             <h1 className="flex justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
-              <FaGithub /> &nbsp; I&apos;m Board
+              <FaGithub /> &nbsp; I&apos;m Board &nbsp;{" "}
+              <p className="text-blue-500 text-lg">
+                <RiTeamLine />
+              </p>
             </h1>
           </Link>
         </Card>
