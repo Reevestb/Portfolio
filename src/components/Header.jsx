@@ -13,7 +13,7 @@ import LD from "@/components/light-dark";
 
 export default function Header() {
   return (
-    <nav className="top-0 z-40 pt-1 self-center max-w-4xl mx-auto">
+    <nav className="top-0 z-40 pt-1 self-center max-w-4xl mx-auto pl-2 pr-2 pt-2 pb-2">
       {/* <Container className="pl-2 pr-2 pt-2 pb-2 "> */}
       {/* <Card className="p-0 m-0"> */}
       <Flex
