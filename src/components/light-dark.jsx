@@ -22,7 +22,7 @@ const App = () => {
   return (
     <Button
       className="p-0 m-0 hover:bg-gray-400"
-      size={"2"}
+      size={"1"}
       radius="full"
       color="gray"
       onClick={toggleTheme}
