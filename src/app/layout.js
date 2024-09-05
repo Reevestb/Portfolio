@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import "@radix-ui/themes/styles.css";
 
 import { Theme, ThemePanel } from "@radix-ui/themes";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           {/* <ThemePanel /> */}
           <Header />
           {children}
+          <Footer />
         </Theme>
       </body>
     </html>
