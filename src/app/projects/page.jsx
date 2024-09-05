@@ -29,7 +29,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              className="rounded cursor-pointer hover:grayscale"
+              title="Link to Eggsape Website"
             />
           </Link>
           <Link href={"https://github.com/Reevestb/Eggscape"} target="_blank">
@@ -52,7 +53,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              title="Link to Social-Network website"
+              className="rounded cursor-pointer hover:grayscale  "
             />
           </Link>
           <Link
@@ -74,7 +76,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              className="rounded cursor-pointer hover:grayscale"
+              title="Link to F1 Fan Page"
             />
           </Link>
           <Link
@@ -147,7 +150,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              className="rounded cursor-pointer hover:grayscale"
+              title="Link to The Feelings Blog"
             />
           </Link>
           <Link
@@ -170,7 +174,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              className="rounded cursor-pointer hover:grayscale"
+              title="Link to The Cookie Clicker Game"
             />
           </Link>
           <Link
@@ -192,7 +197,8 @@ export default function Projects() {
               alt=""
               width={350}
               height={300}
-              className="rounded"
+              className="rounded cursor-pointer hover:grayscale"
+              title="Link to I'm Board Website"
             />
           </Link>
           <Link
