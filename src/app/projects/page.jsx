@@ -48,7 +48,7 @@ export default function Projects() {
             target="_blank"
           >
             <Image
-              src="/social-network-posts.png"
+              src="/social-network.png"
               alt=""
               width={350}
               height={300}
