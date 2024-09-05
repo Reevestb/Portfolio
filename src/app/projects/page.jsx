@@ -22,7 +22,7 @@ export default function Projects() {
       </Heading>
 
       <Flex className="flex flex-col gap-6 lg:flex lg:flex-row md:flex-row">
-        <Card className="bg-gray-300 max-w-fit ">
+        <Card className="bg-gray-100 max-w-fit ">
           <Link href={"https://video-media-app.vercel.app/"} target="_blank">
             <Image
               src="/eggscape-movies.png"
@@ -42,7 +42,7 @@ export default function Projects() {
           </Link>
         </Card>
         {/* //? project change */}
-        <Card className="bg-gray-300 max-w-fit">
+        <Card className="bg-gray-100 max-w-fit">
           <Link
             href={"https://social-network-topaz-seven.vercel.app/"}
             target="_blank"
@@ -64,13 +64,13 @@ export default function Projects() {
             </h1>
           </Link>
         </Card>
-        <Card className="bg-gray-300 max-w-fit ">
+        <Card className="bg-gray-100 max-w-fit ">
           <Link
             href={"https://week-7-assignment.onrender.com/"}
             target="_blank"
           >
             <Image
-              src="/f1-fan-page.png"
+              src="/f1-fan-messages.png"
               alt=""
               width={350}
               height={300}
@@ -140,7 +140,7 @@ export default function Projects() {
 
       {/*//? Next row of projects  */}
       <Flex className="flex flex-col gap-6 lg:flex lg:flex-row md:flex-row">
-        <Card className="bg-gray-300 max-w-fit ">
+        <Card className="bg-gray-100 max-w-fit ">
           <Link href={"https://week8-assignment.vercel.app/"} target="_blank">
             <Image
               src="/feelings-blog.png"
@@ -160,7 +160,7 @@ export default function Projects() {
           </Link>
         </Card>
         {/* //? project change */}
-        <Card className="bg-gray-300 max-w-fit">
+        <Card className="bg-gray-100 max-w-fit">
           <Link
             href={"https://react-cookie-clicker-m7j3.onrender.com/"}
             target="_blank"
@@ -182,7 +182,7 @@ export default function Projects() {
             </h1>
           </Link>
         </Card>
-        <Card className="bg-gray-300 max-w-fit ">
+        <Card className="bg-gray-100 max-w-fit ">
           <Link
             href={"https://team-project-1-xc83.onrender.com/"}
             target="_blank"
