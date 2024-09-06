@@ -49,11 +49,12 @@ export default function Projects() {
             target="_blank"
           >
             <Image
-              src="/social-network.png"
+              // src="/social-network.png"
+              src="/gg.png"
               alt=""
               width={350}
               height={300}
-              title="Link to Social-Network website"
+              title="Link to Green Grass the Social-Network"
               className="rounded cursor-pointer hover:grayscale  "
             />
           </Link>
