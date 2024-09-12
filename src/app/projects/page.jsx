@@ -215,6 +215,8 @@ export default function Projects() {
           </Link>
         </Card>
       </Flex>
+      <br></br>
+      {/* <Info /> */}
     </main>
   );
 }

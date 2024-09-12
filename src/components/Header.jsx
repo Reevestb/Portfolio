@@ -48,6 +48,10 @@ export default function Header() {
           <ActiveLink href={"/projects"}>
             <p className="text-sm">Projects</p>
           </ActiveLink>
+          {/* <Separator orientation={"vertical"} size={"1"} />
+          <ActiveLink href={"/proj"}>
+            <p className="text-sm">Proj</p>
+          </ActiveLink> */}
         </div>
         <LD />
       </Flex>

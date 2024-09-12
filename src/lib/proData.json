@@ -1,0 +1,16 @@
+{
+  "projectData": [
+    {
+      "id": 1,
+      "name": "Eggscape",
+      "info": "A Netflix style app made in the final week of the Tech Educators Bootcamp. We made this as team tackling Api's and Relational Databases",
+      "by": "Jake Darby, Richard Goodacre and Theo Reeves"
+    },
+    {
+      "id": 2,
+      "name": "A Social Network",
+      "info": "A Social Network made by me, exploring relational databses where uses can make posts. Users make like others posts, edit or delete their own",
+      "by": "Theo Reeves"
+    }
+  ]
+}
