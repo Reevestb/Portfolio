@@ -15,6 +15,7 @@ export const projectInfo = [
         className="rounded cursor-pointer hover:grayscale"
       />
     ),
+    src: "/eggscape-movies.png",
   },
   {
     id: 2,
@@ -30,5 +31,6 @@ export const projectInfo = [
         className="rounded cursor-pointer hover:grayscale"
       />
     ),
+    src: "/social-network.png",
   },
 ];
