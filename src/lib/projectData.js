@@ -1,36 +1,56 @@
-import Image from "next/image";
-
 export const projectInfo = [
   {
     id: 1,
     name: "Eggscape",
-    info: "A Netflix style app made in the final week of the Tech Educators Bootcamp. We made this as team tackling Api's and Relational Databases",
+    info: "A Netflix style app made in the final week of the Tech Educators Bootcamp. We made this as team tackling Api's and Relational Databases and user authentication. Made in NextJs with supabase",
     by: "Jake Darby, Richard Goodacre and Theo Reeves",
-    image: (
-      <Image
-        src={"/eggscape-movies.png"}
-        alt="Eggscpape movie"
-        width={350}
-        height={300}
-        className="rounded cursor-pointer hover:grayscale"
-      />
-    ),
     src: "/eggscape-movies.png",
+    git: "https://github.com/Reevestb/Eggscape",
+    site: "https://video-media-app.vercel.app/",
   },
   {
     id: 2,
     name: "A Social Network",
-    info: "A Social Network made by me, exploring relational databses where uses can make posts. Users make like others posts, edit or delete their own",
+    info: "A Social Network called Green Grass exploring relational databses and user authentication where users can make posts. Users may like others posts, edit or delete their own. Made in Nextjs with supabase",
     by: "Theo Reeves",
-    image: (
-      <Image
-        src={"/gg.png"}
-        alt="A social Network"
-        width={350}
-        height={300}
-        className="rounded cursor-pointer hover:grayscale"
-      />
-    ),
     src: "/gg.png",
+    git: "https://github.com/Reevestb/week9-Assignment",
+    site: "https://social-network-topaz-seven.vercel.app/",
+  },
+  {
+    id: 3,
+    name: "F1 Fan Page",
+    info: "A page for F1 fans to share their experiences from different tracks. Made in React with supabase and depolyed on Render.",
+    by: "Theo Reeves",
+    src: "/f1-fan-messages.png",
+    git: "https://github.com/Reevestb/f1-track-reviews",
+    site: "https://week-7-assignment.onrender.com/",
+  },
+  {
+    id: 4,
+    name: "The Feelings Blog",
+    info: "A blog where people can come and share their feelings, users can make posts edit them and comment on posts Made in Nextjs with supabase.",
+    by: "Theo Reeves",
+    src: "/feelings-blog.png",
+    git: "https://github.com/Reevestb/week8-assignment",
+    site: "https://week8-assignment.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Cookie Clicker",
+    info: "A Cookie Clicker game made in react, the shop buttons will only show if you have enough cookies to buy the upgrade. Made in React.",
+    by: "Theo Reeves",
+    src: "/cookie-clicker.png",
+    git: "https://github.com/Reevestb/React-Cookie-Clicker",
+    site: "https://react-cookie-clicker-m7j3.onrender.com/",
+  },
+  {
+    id: 6,
+    name: "I'm Board",
+    info: "A board game website for people to leave reviews on the selection of games they have played. Made in React with supabase and depolyed on Render.",
+    by: "Theo Reeves",
+    src: "/im-board.png",
+    git: "https://github.com/Reevestb/Team-Project",
+    site: "https://team-project-1-xc83.onrender.com/",
   },
 ];

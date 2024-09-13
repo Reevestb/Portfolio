@@ -13,6 +13,7 @@ import {
 import { useEffect, useState } from "react";
 import { projectInfo } from "@/lib/projectData";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Info() {
   const [Info, setInfo] = useState([]);
@@ -30,15 +31,21 @@ export default function Info() {
       <Heading size={"6"} className="p-2 pb-4 underline underline-offset-8">
         <Strong>Previous Projects</Strong>
       </Heading>
-      <div className="flex flex-col gap-6 lg:flex lg:flex-row md:flex-row">
+      <div className="flex flex-col justify-center gap-6 lg:flex lg:flex-row md:flex-row flex-wrap">
         {Info.map((item) => {
           return (
             <>
-              <Card className="max-w-fit bg-gray-100 h-fit">
+              <Card className="max-w-[50rem] bg-gray-100">
                 <div key={item.id} className="flex flex-col items-center gap-3">
                   <Link href={`proj/${item.id}`}>
-                    {item.image}
-                    <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
+                    <Image
+                      src={item.src}
+                      alt={item.name}
+                      width={350}
+                      height={300}
+                      className="rounded cursor-pointer hover:grayscale"
+                    />
+                    <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-1 hover:underline hover:text-blue-500">
                       {item.name}
                     </h1>
                   </Link>
