@@ -59,7 +59,13 @@ export default function Info({ params }) {
     <main className="min-h-screen flex flex-col gap-3 p-4">
       <div key={data.id} className="flex flex-col items-center gap-3">
         {/* <a>{data.image}</a> */}
-        <Image src={data.src} alt={data.name} height={500} width={500} />
+        <Image
+          src={data.src}
+          alt={data.name}
+          height={500}
+          width={500}
+          className=" bg-gray-600 p-2"
+        />
         <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
           Project Name: {data.name}
         </h1>

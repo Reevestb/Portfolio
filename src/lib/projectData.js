@@ -24,13 +24,13 @@ export const projectInfo = [
     by: "Theo Reeves",
     image: (
       <Image
-        src={"/social-network.png"}
-        alt="A social Netowkr"
+        src={"/gg.png"}
+        alt="A social Network"
         width={350}
         height={300}
         className="rounded cursor-pointer hover:grayscale"
       />
     ),
-    src: "/social-network.png",
+    src: "/gg.png",
   },
 ];
