@@ -2,7 +2,8 @@ export const projectInfo = [
   {
     id: 1,
     name: "Eggscape",
-    info: "A Netflix style app made in the final week of the Tech Educators Bootcamp. We made this as team tackling Api's and Relational Databases and user authentication. Made in NextJs with supabase",
+    // info: "A Netflix style app made in the final week of the Tech Educators Bootcamp. We made this as team tackling Api's and Relational Databases and user authentication. Made in NextJs with supabase",
+    info: "A Netflix-style video streaming app created as part of the final project for the Tech Educators Bootcamp, designed to tackle APIs, relational databases, and user authentication. The app offers a clean, modern interface where users can browse and stream video content. The project simulates a media platform, incorporating real-world concepts like fetching data from external APIs, securely managing user authentication, and storing media information using a relational database. Providing a user-friendly, Netflix-like experience, with features that allow users to easily browse and stream. The use of API integration ensures that the video content is dynamic and up-to-date, while Supabase manages the user authentication process, allowing for secure logins and personalized content. The platform's responsive design makes it accessible on multiple devices, from desktops to mobile phones, ensuring an enjoyable streaming experience. Made in NextJs with Supabase and deployed on Vercel. ",
     by: "Jake Darby, Richard Goodacre and Theo Reeves",
     src: "/eggscape-movies.png",
     git: "https://github.com/Reevestb/Eggscape",
@@ -11,7 +12,8 @@ export const projectInfo = [
   {
     id: 2,
     name: "A Social Network",
-    info: "A Social Network called Green Grass exploring relational databses and user authentication where users can make posts. Users may like others posts, edit or delete their own. Made in Nextjs with supabase",
+    // info: "A Social Network called Green Grass exploring relational databses and user authentication where users can make posts. Users may like others posts, edit or delete their own. Made in Nextjs with supabase",
+    info: "This website is a social network called Green Grass, designed to explore relational databases and user authentication while allowing users to engage with each other through posts, likes, and edits. The platform offers a streamlined social media experience where users can create posts, like others' content, and manage their own posts by editing or deleting them. The site focuses on relational data, ensuring that interactions like user-post relationships, likes, and authentication are handled efficiently. Made in Nextjs with Supabase and deployed on Vercel.",
     by: "Theo Reeves",
     src: "/gg.png",
     git: "https://github.com/Reevestb/week9-Assignment",
@@ -20,7 +22,8 @@ export const projectInfo = [
   {
     id: 3,
     name: "F1 Fan Page",
-    info: "A page for F1 fans to share their experiences from different tracks. Made in React with supabase and depolyed on Render.",
+    // info: "A page for F1 fans to share their experiences from different tracks. Made in React with supabase and depolyed on Render.",
+    info: "The website is a dedicated platform for Formula 1 fans to share their experiences from different race tracks around the world. The site provides an interactive space where F1 enthusiasts can post, edit, and read about personal experiences from various F1 circuits while also being able to add tracks that aren't on there. This allows fans to engage with each other, share insights, and reminisce about memorable moments from attending live races or visiting iconic F1 venues. Made in React with Supabase and depolyed on Render.",
     by: "Theo Reeves",
     src: "/f1-fan-messages.png",
     git: "https://github.com/Reevestb/f1-track-reviews",
@@ -29,7 +32,8 @@ export const projectInfo = [
   {
     id: 4,
     name: "The Feelings Blog",
-    info: "A blog where people can come and share their feelings, users can make posts edit them and comment on posts Made in Nextjs with supabase.",
+    // info: "A blog where people can come and share their feelings, users can make posts edit them and comment on posts Made in Nextjs with supabase.",
+    info: "The website is a blogging platform designed for users to share their thoughts and feelings, allowing for rich interaction through posting, editing, and commenting. This platform provides a seamless user experience with real-time functionality and a modern interface. Users can create new blog posts, edit existing ones, and engage with others by leaving comments on posts, fostering a sense of community and discussion. Made in Nextjs with Supabase and deployed with Vercel.",
     by: "Theo Reeves",
     src: "/feelings-blog.png",
     git: "https://github.com/Reevestb/week8-assignment",
@@ -38,7 +42,8 @@ export const projectInfo = [
   {
     id: 5,
     name: "Cookie Clicker",
-    info: "A Cookie Clicker game made in react, the shop buttons will only show if you have enough cookies to buy the upgrade. Made in React.",
+    // info: "A Cookie Clicker game made in react, the shop buttons will only show if you have enough cookies to buy the upgrade. Made in React.",
+    info: "This is a Cookie Clicker game, offering a simple yet engaging experience for users. In this game, players click on a large cookie to accumulate cookies (points), and as they earn more cookies, they can purchase upgrades from an in-game shop to increase their cookie production rate. A unique feature is that the shop buttons only appear when players have earned enough cookies to afford the upgrade, adding a layer of strategy and progression. Made in React.",
     by: "Theo Reeves",
     src: "/cookie-clicker.png",
     git: "https://github.com/Reevestb/React-Cookie-Clicker",
@@ -47,8 +52,9 @@ export const projectInfo = [
   {
     id: 6,
     name: "I'm Board",
-    info: "A board game website for people to leave reviews on the selection of games they have played. Made in React with supabase and depolyed on Render.",
-    by: "Theo Reeves",
+    // info: "A board game website for people to leave reviews on the selection of games they have played. Made in React with supabase and depolyed on Render.",
+    info: "Users can browse through a selection of board games and leave their personal reviews based on their gameplay experience. This allows the community to share insights and opinions on various board games. The core functionality revolves around user-generated content, i.e., users writing and submitting reviews. The platform encourages board game enthusiasts to engage with each other and share feedback on different games. Made in React with supabase and depolyed on Render",
+    by: "Jake Darby, Richard Goodacre, Theo Reeves and Tejiri",
     src: "/im-board.png",
     git: "https://github.com/Reevestb/Team-Project",
     site: "https://team-project-1-xc83.onrender.com/",
