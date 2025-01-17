@@ -45,7 +45,7 @@ export default function Header() {
             <p className="text-sm">Home</p>
           </ActiveLink>
           <Separator orientation={"vertical"} size={"1"} />
-          <ActiveLink href={"/projects"}>
+          <ActiveLink href={"/proj"}>
             <p className="text-sm">Projects</p>
           </ActiveLink>
           {/* <Separator orientation={"vertical"} size={"1"} />

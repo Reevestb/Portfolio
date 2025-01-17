@@ -13,7 +13,7 @@ export const projectInfo = [
     id: 2,
     name: "A Social Network",
     // info: "A Social Network called Green Grass exploring relational databses and user authentication where users can make posts. Users may like others posts, edit or delete their own. Made in Nextjs with supabase",
-    info: "This website is a social network called Green Grass, designed to explore relational databases and user authentication while allowing users to engage with each other through posts, likes, and edits. The platform offers a streamlined social media experience where users can create posts, like others' content, and manage their own posts by editing or deleting them. The site focuses on relational data, ensuring that interactions like user-post relationships, likes, and authentication are handled efficiently. Made in Nextjs with Supabase and deployed on Vercel.",
+    info: "This is a social network called Green Grass, designed to explore relational databases and user authentication while allowing users to engage with each other through posts, likes, and edits. The platform offers a streamlined social media experience where users can create posts, like others' content, and manage their own posts by editing or deleting them. The site focuses on relational data, ensuring that interactions like user-post relationships, likes, and authentication are handled efficiently. Made in Nextjs with Supabase and deployed on Vercel.",
     by: "Theo Reeves",
     src: "/gg.png",
     git: "https://github.com/Reevestb/week9-Assignment",

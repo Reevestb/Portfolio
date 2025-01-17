@@ -31,7 +31,7 @@ export default function Info() {
       <Heading size={"6"} className="p-2 pb-4 underline underline-offset-8">
         <Strong>Previous Projects</Strong>
       </Heading>
-      <div className="flex flex-col justify-center gap-6 lg:flex lg:flex-row md:flex-row flex-wrap">
+      <div className="flex flex-col justify-center gap-6 lg:flex lg:flex-row md:flex-row flex-wrap max-w-screen-xl">
         {Info.map((item) => {
           return (
             <>

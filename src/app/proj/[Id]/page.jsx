@@ -1,41 +1,3 @@
-// // "use client";
-// // import { useEffect, useState } from "react";
-// import { projectInfo } from "@/lib/projectData";
-
-// export default function Info({ params }) {
-//   // const [Info, setInfo] = useState([]);
-//   // useEffect(() => {
-//   //   async function libData() {
-//   //     const response = projectInfo;
-//   //     const data = response;
-//   //     setInfo(data);
-//   //   }
-//   //   libData();
-//   // }, []);
-
-//   const response = projectInfo;
-//   const data = response[0];
-
-//   return (
-//     <main className="min-h-screen flex flex-col gap-3">
-//       {/* {Info.map((item) => {
-//         return ( */}
-//       <>
-//         <div key={data.id} className="flex flex-col items-center gap-3">
-//           <a>{data.image}</a>
-//           <h1 className="flex flex-row justify-center text-xl text-orange-600 items-center mt-2 hover:underline hover:text-blue-500">
-//             {data.name}
-//           </h1>
-
-//           <p>{data.info}</p>
-//           <p>{data.by}</p>
-//         </div>
-//       </>
-//       {/* );
-//       })} */}
-//     </main>
-//   );
-// }
 import {
   Button,
   Card,
@@ -107,13 +69,15 @@ export default function Info({ params }) {
 
       <br></br>
 
-      <p>Info: {data.info}</p>
-      <p>By: {data.by}</p>
-
+      <p>
+        <strong>Info:</strong> {data.info}
+      </p>
+      <p>
+        <strong>By:</strong> {data.by}
+      </p>
       <Link href={"/proj"}>
-        This button will be removed
-        <button className="bg-gray-700 text-white rounded-md w-[4.5rem] h-[2rem]  justify-center items-center hover:bg-gray-400  hover:shadow-xl hover:shadow-orange-600 hover:text-black">
-          projects
+        <button className="bg-gray-700 text-white rounded-md w-[4.5rem] h-[2rem]  justify-center items-center hover:bg-gray-400  hover:shadow-xl hover:shadow-white hover:text-black ml-2">
+          Projects
         </button>
       </Link>
     </main>
