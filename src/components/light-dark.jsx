@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { CiLight } from "react-icons/ci";
 import { CiDark } from "react-icons/ci";
 import { Button } from "@radix-ui/themes";

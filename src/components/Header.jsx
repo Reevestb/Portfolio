@@ -21,7 +21,7 @@ export default function Header() {
           justify={"between"}
           gap={"2"}
           align={"center"}
-          className="pl-2 pr-2 pt-2 pb-2 "
+          // className="pl-2 pr-2 pt-2 pb-2 "
         >
           {/* <div className="flex flex-row justify-center gap-2 items-center p-0 m-0">
             <a href="/">
